@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ms-coding-test/E2/gender-vote/build/static/css/main.144323c8.chunk.css",
-    "main.js": "/ms-coding-test/E2/gender-vote/build/static/js/main.bd1dee81.chunk.js",
-    "main.js.map": "/ms-coding-test/E2/gender-vote/build/static/js/main.bd1dee81.chunk.js.map",
-    "runtime~main.js": "/ms-coding-test/E2/gender-vote/build/static/js/runtime~main.2dc4847d.js",
-    "runtime~main.js.map": "/ms-coding-test/E2/gender-vote/build/static/js/runtime~main.2dc4847d.js.map",
-    "static/css/2.12516429.chunk.css": "/ms-coding-test/E2/gender-vote/build/static/css/2.12516429.chunk.css",
-    "static/js/2.f1339ac0.chunk.js": "/ms-coding-test/E2/gender-vote/build/static/js/2.f1339ac0.chunk.js",
-    "static/js/2.f1339ac0.chunk.js.map": "/ms-coding-test/E2/gender-vote/build/static/js/2.f1339ac0.chunk.js.map",
-    "index.html": "/ms-coding-test/E2/gender-vote/build/index.html",
-    "precache-manifest.7422e6722d215cb95bcd6103ba2c4005.js": "/ms-coding-test/E2/gender-vote/build/precache-manifest.7422e6722d215cb95bcd6103ba2c4005.js",
-    "service-worker.js": "/ms-coding-test/E2/gender-vote/build/service-worker.js",
-    "static/css/2.12516429.chunk.css.map": "/ms-coding-test/E2/gender-vote/build/static/css/2.12516429.chunk.css.map",
-    "static/css/main.144323c8.chunk.css.map": "/ms-coding-test/E2/gender-vote/build/static/css/main.144323c8.chunk.css.map",
-    "static/media/semantic.min.css": "/ms-coding-test/E2/gender-vote/build/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/female.svg": "/ms-coding-test/E2/gender-vote/build/static/media/female.8d31cb8f.svg",
-    "static/media/male.svg": "/ms-coding-test/E2/gender-vote/build/static/media/male.ca6e28c8.svg"
+    "main.css": "/ms-coding-test/static/css/main.144323c8.chunk.css",
+    "main.js": "/ms-coding-test/static/js/main.bd1dee81.chunk.js",
+    "main.js.map": "/ms-coding-test/static/js/main.bd1dee81.chunk.js.map",
+    "runtime~main.js": "/ms-coding-test/static/js/runtime~main.dac12c98.js",
+    "runtime~main.js.map": "/ms-coding-test/static/js/runtime~main.dac12c98.js.map",
+    "static/css/2.7dd1b1d6.chunk.css": "/ms-coding-test/static/css/2.7dd1b1d6.chunk.css",
+    "static/js/2.f1339ac0.chunk.js": "/ms-coding-test/static/js/2.f1339ac0.chunk.js",
+    "static/js/2.f1339ac0.chunk.js.map": "/ms-coding-test/static/js/2.f1339ac0.chunk.js.map",
+    "index.html": "/ms-coding-test/index.html",
+    "precache-manifest.ca60ababf49990ca968a61be3c2a273d.js": "/ms-coding-test/precache-manifest.ca60ababf49990ca968a61be3c2a273d.js",
+    "service-worker.js": "/ms-coding-test/service-worker.js",
+    "static/css/2.7dd1b1d6.chunk.css.map": "/ms-coding-test/static/css/2.7dd1b1d6.chunk.css.map",
+    "static/css/main.144323c8.chunk.css.map": "/ms-coding-test/static/css/main.144323c8.chunk.css.map",
+    "static/media/semantic.min.css": "/ms-coding-test/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/female.svg": "/ms-coding-test/static/media/female.8d31cb8f.svg",
+    "static/media/male.svg": "/ms-coding-test/static/media/male.ca6e28c8.svg"
   }
 }
