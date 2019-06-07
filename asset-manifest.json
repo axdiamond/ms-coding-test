@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ms-interview-test/E2/static/css/main.144323c8.chunk.css",
+    "main.js": "/ms-interview-test/E2/static/js/main.5af15979.chunk.js",
+    "main.js.map": "/ms-interview-test/E2/static/js/main.5af15979.chunk.js.map",
+    "runtime~main.js": "/ms-interview-test/E2/static/js/runtime~main.d778fdbb.js",
+    "runtime~main.js.map": "/ms-interview-test/E2/static/js/runtime~main.d778fdbb.js.map",
+    "static/css/2.e446e47c.chunk.css": "/ms-interview-test/E2/static/css/2.e446e47c.chunk.css",
+    "static/js/2.f1339ac0.chunk.js": "/ms-interview-test/E2/static/js/2.f1339ac0.chunk.js",
+    "static/js/2.f1339ac0.chunk.js.map": "/ms-interview-test/E2/static/js/2.f1339ac0.chunk.js.map",
+    "index.html": "/ms-interview-test/E2/index.html",
+    "precache-manifest.6d6faa07932250706413686349608b75.js": "/ms-interview-test/E2/precache-manifest.6d6faa07932250706413686349608b75.js",
+    "service-worker.js": "/ms-interview-test/E2/service-worker.js",
+    "static/css/2.e446e47c.chunk.css.map": "/ms-interview-test/E2/static/css/2.e446e47c.chunk.css.map",
+    "static/css/main.144323c8.chunk.css.map": "/ms-interview-test/E2/static/css/main.144323c8.chunk.css.map",
+    "static/media/semantic.min.css": "/ms-interview-test/E2/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/female.svg": "/ms-interview-test/E2/static/media/female.8d31cb8f.svg",
+    "static/media/male.svg": "/ms-interview-test/E2/static/media/male.ca6e28c8.svg"
+  }
+}
