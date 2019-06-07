@@ -1,0 +1,21 @@
+.squares__container {
+    width: 500px;
+    height: 500px;
+
+    background-color: #5A9BD5;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.squares__yellow {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+
+    background-color: #FFFF01;
+
+    align-self: center;
+}

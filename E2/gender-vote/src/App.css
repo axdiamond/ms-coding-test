@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+}
+
+.gender-voter__image {
+    height: 400px;
+}
+
+.gender-voter {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.gender-voter__score {
+    text-align: center;
+    font-size: 16pt;
+}
+
+.gender-voter__score {
+    margin-bottom: 10px;
+}
+
+.gender-voter__vote:hover {
+    animation: wiggle 1s linear;
+}
+
+/* vote button wiggle */
+@keyframes wiggle {
+    0% {
+        transform: rotateZ(0);
+    }
+    10% {
+        transform: rotateZ(9deg);
+    }
+    26% {
+        transform: rotateZ(-8deg);
+    }
+    40% {
+        transform: rotateZ(6deg);
+    }
+    57%, 100% {
+        transform: rotateZ(0deg);
+    }
+}
