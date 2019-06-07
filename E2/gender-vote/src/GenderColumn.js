@@ -1,7 +1,7 @@
 import React from 'react';
 
 const formatAsPercent = (val, demoninator) => {
-    if (demoninator == 0)
+    if (demoninator === 0)
       return '0%';
 
     return parseFloat((val / demoninator) * 100).toFixed(0) + "%";
