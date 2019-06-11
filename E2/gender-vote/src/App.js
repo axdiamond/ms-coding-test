@@ -4,13 +4,6 @@ import './App.css';
 import maleImage from './img/male.svg'
 import femaleImage from './img/female.svg'
 
-const getColor = (value) => {
-  var hue = ((value) * 120).toString(10);
-  return "hsl(" + hue + ", 100%, 50%)";
-}
-
-
-
 function App() {
   const [femaleVotes, setFemaleVotes] = useState(0);
   const [maleVotes, setMaleVotes] = useState(0);
@@ -21,33 +14,24 @@ function App() {
     fetch('/api/Votes/VoteMale', {
       method: 'POST'
     }).then(() => {
-      setMaleVotes(maleVotes++);
+      setMaleVotes(maleVotes + 1);
     });
 
   const voteFemale = () =>
     fetch('/api/Votes/VoteFemale', {
       method: 'POST'
     }).then(() => {
-      setFemaleVotes(femaleVotes++);
+      setFemaleVotes(femaleVotes + 1);
     });
 
-  useEffect(async () => {
+  useEffect(() => {
     fetch('/api/votes')
       .then(r=> r.json())
       .then(r => {
         setMaleVotes(r.maleScore);
         setFemaleVotes(r.femaleScore);
       });
-
-  }, [maleVotes]);
-
-  const maleScoreStyle = {
-    'background-color': getColor(maleVotes / totalVotes)
-  }
-
-  const femaleScoreStyle = {
-    'background-color': getColor(femaleVotes / totalVotes)
-  }
+  }, []);
 
   return (
     <div className="gender-voter">
@@ -59,7 +43,6 @@ function App() {
               className="ui column"
               title='Female'
               image={femaleImage}
-              scoreStyle={femaleScoreStyle}
               votes={femaleVotes}
               totalVotes={totalVotes}
               onClick={voteFemale} />
@@ -67,7 +50,6 @@ function App() {
               className="ui column"
               title='Male'
               image={maleImage}
-              scoreStyle={maleScoreStyle}
               votes={maleVotes}
               totalVotes={totalVotes}
               onClick={voteMale} />
