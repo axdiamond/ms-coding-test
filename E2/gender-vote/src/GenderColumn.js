@@ -21,7 +21,7 @@ const formatAsPercent = (val, demoninator) => {
             {formatAsPercent(votes, totalVotes)}
           </div>
         </div>
-        <button className="gender-voter__vote ui massive button green" type="button" onClick={() => onClick(votes + 1)}>
+        <button className="gender-voter__vote ui massive button green" type="button" onClick={() => onClick()}>
           Vote!
         </button>
       </div>

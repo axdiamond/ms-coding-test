@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import GenderColumn from './GenderColumn'
 import './App.css';
 import maleImage from './img/male.svg'
@@ -9,10 +9,37 @@ const getColor = (value) => {
   return "hsl(" + hue + ", 100%, 50%)";
 }
 
+
+
 function App() {
   const [femaleVotes, setFemaleVotes] = useState(0);
   const [maleVotes, setMaleVotes] = useState(0);
+
   const totalVotes = maleVotes + femaleVotes;
+
+  const voteMale = () =>
+    fetch('/api/Votes/VoteMale', {
+      method: 'POST'
+    }).then(() => {
+      setMaleVotes(maleVotes++);
+    });
+
+  const voteFemale = () =>
+    fetch('/api/Votes/VoteFemale', {
+      method: 'POST'
+    }).then(() => {
+      setFemaleVotes(femaleVotes++);
+    });
+
+  useEffect(async () => {
+    fetch('/api/votes')
+      .then(r=> r.json())
+      .then(r => {
+        setMaleVotes(r.maleScore);
+        setFemaleVotes(r.femaleScore);
+      });
+
+  }, [maleVotes]);
 
   const maleScoreStyle = {
     'background-color': getColor(maleVotes / totalVotes)
@@ -35,7 +62,7 @@ function App() {
               scoreStyle={femaleScoreStyle}
               votes={femaleVotes}
               totalVotes={totalVotes}
-              onClick={setFemaleVotes} />
+              onClick={voteFemale} />
             <GenderColumn
               className="ui column"
               title='Male'
@@ -43,7 +70,7 @@ function App() {
               scoreStyle={maleScoreStyle}
               votes={maleVotes}
               totalVotes={totalVotes}
-              onClick={setMaleVotes} />
+              onClick={voteMale} />
           </div>
         </div>
       </div>
