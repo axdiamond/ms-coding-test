@@ -9,7 +9,9 @@ function renderScore(votes, totalVotes) {
   let ratio = ((votes / totalVotes) * 100);
   let color = "black";
 
-  if (ratio > 50) {
+  if (totalVotes === 0) {
+    ratio = 0;
+  } else if (ratio > 50) {
     color = "green";
     ratio = Math.ceil(ratio);
   } else if (ratio < 50) {
