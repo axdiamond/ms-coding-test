@@ -21,6 +21,10 @@ body {
     margin-bottom: 10px;
 }
 
+.gender-voter__loading-icon {
+    width: 80px;
+}
+
 .gender-voter__vote:hover {
     animation: wiggle 1s linear;
 }
